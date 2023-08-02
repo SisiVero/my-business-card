@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+body{
+font-family: 'Montserrat', sans-serif;    background: #464959;
+}
+
+@media (min-width:768px ){
+    body{
+        margin: 0;
+        color:#F5F5F5;
+
+    }
+    
+    main{
+     background-color: #1A1B21;
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    }
+    
+    .me{
+width: 100%;
+height: 80vh;
+flex-shrink: 0;  
+border-radius: 1rem  1rem 0 0;
+padding:0;
+  }
+  
+
+  
+  h2,
+  p{
+      margin: 0;
+  }
+  
+  header{
+      text-align: center;
+      color:#ffffff;
+  }
+  .chioma{
+      font-weight: 700;
+      font-size:1.6rem;
+      margin-top: 0.75rem;
+  }
+  
+  .frontend{
+      font-size: 0.8rem;
+      color:#F3BF99;
+      margin:0.5rem; 
+  }
+  .website{
+      font-size: 0.64rem;
+      color:#F5F5F5;
+      font-weight: 400;
+
+  }
+  .btn-cont{
+      display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .btn-cont a {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0  0 2rem 8px;
+}
+
+.btn-cont a img {
+  margin-right: 8px;
+}
+
+  
+  .email,
+  .linkedin{
+    width: 7.1875rem;
+    padding: 0.5625rem 0.8125rem 0.5625rem;
+    background: red;
+    text-align: center;
+    border-radius: 0.375rem;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+
+  }
+  a{
+      text-decoration: none;
+  }
+  
+  .email{
+      color: var(--gray-700, #374151);
+  }
+  .mail-icon,
+  .linkedin-icon{
+      width: 1rem;
+height: 1rem;
+flex-shrink: 0;
+  }
+  
+  .linkedin{
+      background: #5093E2;
+      color:#ffffff;
+  }
+  
+  
+    .details{
+          padding: 0 1.74rem;
+  }
+  
+  .about,
+  .interests{
+      font-size:1rem;
+    margin: 0.75rem 0 ;
+    color:#DCDCDC;
+  }
+  
+  .about-text,
+  .interests-text{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    width: 100%;
+    margin:0;
+    color:#DCDCDC;
+
+}
+
+.about-text{
+    margin-bottom: 2rem;
+}
+.interests-text{
+    margin-bottom: 3rem;
+}
+  
+  footer{
+border-radius: 0rem 0rem 0.625rem 0.625rem;
+background: #161619;
+      display: flex;
+      align-items: center;
+      width: 100%;
+height: 4rem;
+padding: 0 5rem;
+  }
+  
+  .footer-icon{
+      width: 1.5625rem;
+height: 1.5625rem;
+flex-shrink: 0;
+ margin: 0 1rem
+  }
+  
+  
+}
