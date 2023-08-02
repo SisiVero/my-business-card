@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <>
+    <div>
       <header>
         <img src="./images/me.jpg" className="me" />
         <h2 className="chioma">Chioma Veronica</h2>
@@ -21,6 +21,6 @@ export default function Header() {
         <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/chioma-veronica-ezezim/">
         <img src="./images/linkedin.svg" className="linkedin-icon" />LinkedIn</a>
       </div>
-    </>
+    </div>
   );
 }
